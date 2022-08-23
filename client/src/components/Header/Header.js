@@ -4,8 +4,8 @@ import { colors } from '../../utils';
 
 export const Header = () => {
     return (
-        <Flex bg={colors.neutral} justifyContent="space-between" p="8">
-            <Text color={colors.light}>Header</Text>
+        <Flex bg={colors.neutral} justifyContent="space-between" py="8" px="32">
+            <Text color={colors.secondary} fontSize="2xl" fontWeight="semibold">Tambourine</Text>
             <Flex color={colors.light} align="center" gap="4">
                 <Link href="https://google.com">Login</Link>
                 <Divider orientation="vertical" />
